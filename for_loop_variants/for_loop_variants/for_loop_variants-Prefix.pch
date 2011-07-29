@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'for_loop_variants' target in the 'for_loop_variants' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

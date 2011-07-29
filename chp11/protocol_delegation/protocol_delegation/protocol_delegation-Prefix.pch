@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'protocol_delegation' target in the 'protocol_delegation' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

@@ -1,0 +1,227 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CE3C50113DDFB56003CA900 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE3C50013DDFB56003CA900 /* Foundation.framework */; };
+		9CE3C50413DDFB56003CA900 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE3C50313DDFB56003CA900 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9CE3C4FA13DDFB56003CA900 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9CE3C4FC13DDFB56003CA900 /* nested_if_statements */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = nested_if_statements; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE3C50013DDFB56003CA900 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9CE3C50313DDFB56003CA900 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CE3C50613DDFB56003CA900 /* nested_if_statements-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nested_if_statements-Prefix.pch"; sourceTree = "<group>"; };
+		9CE3C50713DDFB56003CA900 /* nested_if_statements.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = nested_if_statements.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CE3C4F913DDFB56003CA900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE3C50113DDFB56003CA900 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CE3C4F113DDFB56003CA900 = {
+			isa = PBXGroup;
+			children = (
+				9CE3C50213DDFB56003CA900 /* nested_if_statements */,
+				9CE3C4FF13DDFB56003CA900 /* Frameworks */,
+				9CE3C4FD13DDFB56003CA900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CE3C4FD13DDFB56003CA900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CE3C4FC13DDFB56003CA900 /* nested_if_statements */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CE3C4FF13DDFB56003CA900 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CE3C50013DDFB56003CA900 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CE3C50213DDFB56003CA900 /* nested_if_statements */ = {
+			isa = PBXGroup;
+			children = (
+				9CE3C50313DDFB56003CA900 /* main.m */,
+				9CE3C50713DDFB56003CA900 /* nested_if_statements.1 */,
+				9CE3C50513DDFB56003CA900 /* Supporting Files */,
+			);
+			path = nested_if_statements;
+			sourceTree = "<group>";
+		};
+		9CE3C50513DDFB56003CA900 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CE3C50613DDFB56003CA900 /* nested_if_statements-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CE3C4FB13DDFB56003CA900 /* nested_if_statements */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CE3C50A13DDFB56003CA900 /* Build configuration list for PBXNativeTarget "nested_if_statements" */;
+			buildPhases = (
+				9CE3C4F813DDFB56003CA900 /* Sources */,
+				9CE3C4F913DDFB56003CA900 /* Frameworks */,
+				9CE3C4FA13DDFB56003CA900 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nested_if_statements;
+			productName = nested_if_statements;
+			productReference = 9CE3C4FC13DDFB56003CA900 /* nested_if_statements */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CE3C4F313DDFB56003CA900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Convo Communications";
+			};
+			buildConfigurationList = 9CE3C4F613DDFB56003CA900 /* Build configuration list for PBXProject "nested_if_statements" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9CE3C4F113DDFB56003CA900;
+			productRefGroup = 9CE3C4FD13DDFB56003CA900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CE3C4FB13DDFB56003CA900 /* nested_if_statements */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CE3C4F813DDFB56003CA900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE3C50413DDFB56003CA900 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9CE3C50813DDFB56003CA900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9CE3C50913DDFB56003CA900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9CE3C50B13DDFB56003CA900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nested_if_statements/nested_if_statements-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9CE3C50C13DDFB56003CA900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nested_if_statements/nested_if_statements-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CE3C4F613DDFB56003CA900 /* Build configuration list for PBXProject "nested_if_statements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CE3C50813DDFB56003CA900 /* Debug */,
+				9CE3C50913DDFB56003CA900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CE3C50A13DDFB56003CA900 /* Build configuration list for PBXNativeTarget "nested_if_statements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CE3C50B13DDFB56003CA900 /* Debug */,
+				9CE3C50C13DDFB56003CA900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CE3C4F313DDFB56003CA900 /* Project object */;
+}

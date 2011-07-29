@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'variables_and_data_types' target in the 'variables_and_data_types' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

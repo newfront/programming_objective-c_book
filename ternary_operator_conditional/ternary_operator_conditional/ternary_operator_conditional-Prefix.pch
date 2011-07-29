@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ternary_operator_conditional' target in the 'ternary_operator_conditional' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

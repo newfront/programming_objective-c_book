@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'fraction_3_chp7' target in the 'fraction_3_chp7' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

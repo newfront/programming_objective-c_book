@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'for_loops' target in the 'for_loops' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

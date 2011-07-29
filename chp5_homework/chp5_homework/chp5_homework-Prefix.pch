@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'chp5_homework' target in the 'chp5_homework' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

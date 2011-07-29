@@ -1,0 +1,233 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C13315E13E1BA1400BFB678 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C13315D13E1BA1400BFB678 /* Foundation.framework */; };
+		9C13316113E1BA1400BFB678 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C13316013E1BA1400BFB678 /* main.m */; };
+		9C13316C13E1BA2500BFB678 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C13316B13E1BA2500BFB678 /* Fraction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9C13315713E1BA1400BFB678 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9C13315913E1BA1400BFB678 /* fraction_3_chp7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fraction_3_chp7; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C13315D13E1BA1400BFB678 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9C13316013E1BA1400BFB678 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C13316313E1BA1400BFB678 /* fraction_3_chp7-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fraction_3_chp7-Prefix.pch"; sourceTree = "<group>"; };
+		9C13316413E1BA1400BFB678 /* fraction_3_chp7.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = fraction_3_chp7.1; sourceTree = "<group>"; };
+		9C13316A13E1BA2500BFB678 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		9C13316B13E1BA2500BFB678 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C13315613E1BA1400BFB678 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C13315E13E1BA1400BFB678 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C13314E13E1BA1400BFB678 = {
+			isa = PBXGroup;
+			children = (
+				9C13315F13E1BA1400BFB678 /* fraction_3_chp7 */,
+				9C13315C13E1BA1400BFB678 /* Frameworks */,
+				9C13315A13E1BA1400BFB678 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C13315A13E1BA1400BFB678 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C13315913E1BA1400BFB678 /* fraction_3_chp7 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C13315C13E1BA1400BFB678 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C13315D13E1BA1400BFB678 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C13315F13E1BA1400BFB678 /* fraction_3_chp7 */ = {
+			isa = PBXGroup;
+			children = (
+				9C13316013E1BA1400BFB678 /* main.m */,
+				9C13316413E1BA1400BFB678 /* fraction_3_chp7.1 */,
+				9C13316213E1BA1400BFB678 /* Supporting Files */,
+				9C13316A13E1BA2500BFB678 /* Fraction.h */,
+				9C13316B13E1BA2500BFB678 /* Fraction.m */,
+			);
+			path = fraction_3_chp7;
+			sourceTree = "<group>";
+		};
+		9C13316213E1BA1400BFB678 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C13316313E1BA1400BFB678 /* fraction_3_chp7-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C13315813E1BA1400BFB678 /* fraction_3_chp7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C13316713E1BA1400BFB678 /* Build configuration list for PBXNativeTarget "fraction_3_chp7" */;
+			buildPhases = (
+				9C13315513E1BA1400BFB678 /* Sources */,
+				9C13315613E1BA1400BFB678 /* Frameworks */,
+				9C13315713E1BA1400BFB678 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fraction_3_chp7;
+			productName = fraction_3_chp7;
+			productReference = 9C13315913E1BA1400BFB678 /* fraction_3_chp7 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C13315013E1BA1400BFB678 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Convo Communications";
+			};
+			buildConfigurationList = 9C13315313E1BA1400BFB678 /* Build configuration list for PBXProject "fraction_3_chp7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C13314E13E1BA1400BFB678;
+			productRefGroup = 9C13315A13E1BA1400BFB678 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C13315813E1BA1400BFB678 /* fraction_3_chp7 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C13315513E1BA1400BFB678 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C13316113E1BA1400BFB678 /* main.m in Sources */,
+				9C13316C13E1BA2500BFB678 /* Fraction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9C13316513E1BA1400BFB678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9C13316613E1BA1400BFB678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9C13316813E1BA1400BFB678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fraction_3_chp7/fraction_3_chp7-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C13316913E1BA1400BFB678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fraction_3_chp7/fraction_3_chp7-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C13315313E1BA1400BFB678 /* Build configuration list for PBXProject "fraction_3_chp7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C13316513E1BA1400BFB678 /* Debug */,
+				9C13316613E1BA1400BFB678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C13316713E1BA1400BFB678 /* Build configuration list for PBXNativeTarget "fraction_3_chp7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C13316813E1BA1400BFB678 /* Debug */,
+				9C13316913E1BA1400BFB678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C13315013E1BA1400BFB678 /* Project object */;
+}

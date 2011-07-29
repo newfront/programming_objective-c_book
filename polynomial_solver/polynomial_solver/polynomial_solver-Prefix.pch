@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'polynomial_solver' target in the 'polynomial_solver' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

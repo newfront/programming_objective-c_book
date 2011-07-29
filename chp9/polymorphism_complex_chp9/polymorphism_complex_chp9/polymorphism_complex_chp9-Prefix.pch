@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'polymorphism_complex_chp9' target in the 'polymorphism_complex_chp9' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
