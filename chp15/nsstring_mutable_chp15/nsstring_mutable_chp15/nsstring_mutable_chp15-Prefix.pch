@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'nsstring_mutable_chp15' target in the 'nsstring_mutable_chp15' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

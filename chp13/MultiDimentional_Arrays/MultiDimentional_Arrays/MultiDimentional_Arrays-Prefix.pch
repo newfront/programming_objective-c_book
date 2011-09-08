@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MultiDimentional_Arrays' target in the 'MultiDimentional_Arrays' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
